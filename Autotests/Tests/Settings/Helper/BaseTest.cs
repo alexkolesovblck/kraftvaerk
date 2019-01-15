@@ -57,8 +57,8 @@ namespace Tests.Settings.Helper
                 }
             }
 
-            //if (driver != null)
-                //driver.Quit();
+            if (driver != null)
+                driver.Quit();
         }
 
         public IWebElement WaitForElement(By locator)
